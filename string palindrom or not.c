@@ -18,9 +18,9 @@ int main()
         c=c+1;
     }
     if(c==j)
-    printf("yes");
+    printf("YES");
     else
-    printf("no");
+    printf("NO");
     
     
 
