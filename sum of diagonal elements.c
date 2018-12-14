@@ -3,7 +3,7 @@
 int main()
 {
     int i,j,k,n,a[10][10];
-    n=3;
+    scanf("%d",&n);
     k=0;
     for(i=0;i<n;i++)
     {
