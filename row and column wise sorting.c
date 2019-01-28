@@ -3,7 +3,7 @@
 int main()
 {
     int a[100][100],j,k,l,m,i,p;
-    scanf("%d %d",&m,&l);
+    scanf("%d %d",&l,&m);
     for(i=0;i<l;i++)
     {
         for(j=0;j<m;j++)
@@ -48,7 +48,8 @@ int main()
             else
                 printf("%d ",a[i][j]);
         }
-        printf("\n");
+        
+            printf("\n");
     }
 
     return 0;
