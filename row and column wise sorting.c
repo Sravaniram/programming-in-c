@@ -42,7 +42,12 @@ int main()
     for(i=0;i<l;i++)
     {
         for(j=0;j<m;j++)
-        printf("%d ",a[i][j]);
+        {
+            if(j==m-1)
+                printf("%d",a[i][j]);
+            else
+                printf("%d ",a[i][j]);
+        }
         printf("\n");
     }
 
