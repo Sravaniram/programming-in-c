@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{int a[100],i,j,k,max=0;
+{int a[100],i,j,k,max;
 scanf("%d",&k);
 for(i=0;i<k;i++)
 scanf("%d",&a[i]);
